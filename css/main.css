@@ -1,3 +1,42 @@
-/*
- * Estilos de tu proyecto
- */
+body{
+    margin: 0px;
+    background-color: #18bc9c;
+    text-align: center;
+
+    
+}
+
+ul{
+    list-style-type:none;
+    color: white;
+    background-color: #2c3e50;
+    padding: 20px;
+    margin-top: auto;
+    
+}
+
+li {
+    display: inline-block;
+    padding-left: 20px;
+}
+
+
+.sectionOne img{
+    margin: 70px 0px 0px;
+}
+
+.sectionOne h1,p{
+    color: white;
+    font-size: 60px;
+    
+}
+.sectionOne p{
+    font-size: 23px;
+}
+
+.sectionPortifolio{
+    color:#2c3e50;
+    background-color: white;
+    
+}
+
