@@ -53,14 +53,18 @@ body{
 }
 
 .sectionPortifolio{
-  margin: 14%;
+  font-size: 30px;
   color:#2c3e50;
   background-color: white; 
-  font-size: 30px;
+  margin: 14%;
   display: flex; 
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.sectionPortifolio h2{
+  margin-top: -90px; 
 }
 
 .sectionPortifolio img{
@@ -98,6 +102,8 @@ body{
 }
 
 .containerAbout button{
+  font-family: lato;
+  font-size: 20px;
   background-color: #18bc9c;
   color: white;
   border: 2px solid white;
@@ -105,7 +111,64 @@ body{
   border-radius: 3px;
   margin: 0px 0px 80px;
   width: 14%;
+ 
+}
+
+.containerContact{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+
+}
+
+.containerContact h3{
+  font-family: Montserrat;
+  font-size: 38px;
+  color: #2c3e50;
+  text-align: center;
+  
+}
+
+.containerContact form input{
+  
+  margin-right: 200px;
+  border:0 none;
+  font-size: 20px; 
+  padding: 20px;
+
+}
+.containerContact .buttonSend input{
+  color: white;
+  background-color: #18bc9c  ;
+  font-size: 15px;
+  margin: 10px 0px 90px;
+}
+
+.footer{
+  color: white;
+  background-color: #2c3e50 ;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 220px;
+}
+
+.footer .titleFooter{
   font-family: lato;
   font-size: 20px;
 }
+
+.footerEnd{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: #212529;
+  height: 60px;
+  font-size: 11px;
+}
+
 
