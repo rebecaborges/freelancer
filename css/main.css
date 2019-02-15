@@ -8,20 +8,20 @@ body{
   display:flex;
   justify-content: center;
   align-items:center; 
-  font-family: Montserrat;
+  font-family: Montserrat, lato;
   font-weight: 600;
+  
 }
 
 .top ul{
-    display:flex;
-    justify-content: flex-end;
-    list-style-type:none;
-    color: white;
-    margin: 0px 0px 0px 200px;
-    
+  display:flex;
+  justify-content: flex-end;
+  list-style-type:none;
+  color: white;
+  margin: 0px 0px 0px 200px;      
 }
 
-li {
+.top ul li {
     padding-left: 20px;
 }
 
@@ -31,53 +31,81 @@ li {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  color: white;
+}
+
+.sectionOne h1{
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 56px;
+  margin: 42px 0px 22px
+}
+
+.sectionOne p{
+  font-family: lato;
+  font-size: 22px;
+  margin: 20px;    
+  padding: 0px 0px 15px;
 }
 
 .sectionOne img{
   padding: 100px 0px 0px 10px;  
 }
 
-.sectionOne h1,p{
-    color: white;
-    font-size: 60px;
-    margin: 20px;    
-}
-
-.sectionOne p{
-    font-size: 23px;
-    padding: 0px 0px 20px;
-}
-
 .sectionPortifolio{
-    margin: 14%;
-    color:#2c3e50;
-    background-color: white; 
-    font-size: 30px;
-    display: flex; 
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  
+  margin: 14%;
+  color:#2c3e50;
+  background-color: white; 
+  font-size: 30px;
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .sectionPortifolio img{
     height: 230px;  
-  
 }
 
-
-.about div{
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
+.containerAbout{
   background-color: #18bc9c;
-  padding: 12%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   
 }
 
+.containerAbout h2{
+  text-align: center;
+  padding: 20px;
+  font-family: Montserrat;
+  font-size: 48px;
+  }
 
-.about .aboutOne{
- 
-  justify-content: space-around;
-  align-self: right;
+.containerAbout .about {
+  display: flex;  
+  font-family: lato;
 }
+
+.containerAbout .about .aboutOne{
+  padding: 0px 200px 20px;
+
+}
+
+.containerAbout .about .aboutTwo{
+  padding: 0px 200px 20px;
+}
+
+.containerAbout button{
+  background-color: #18bc9c;
+  color: white;
+  border: 2px solid white;
+  padding: 15px 9px;
+  border-radius: 3px;
+  margin: 0px 0px 80px;
+  width: 14%;
+  font-family: lato;
+  font-size: 20px;
+}
+
